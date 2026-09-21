@@ -1,0 +1,13 @@
+[[FPLLL]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cd97b122c9a5cba11807f3f2250e51bdf2433a83"
+julia_version = "1.12.6"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+libstdcxx_version = "3.4.30"
+os = "linux"
+
+    [[FPLLL.download]]
+    sha256 = "e85678b9682f272ba91b532f1eefb8efc2984e271e85eca63b23882533571047"
+    url = "https://github.com/wbhart/FPLLL_jll.jl/releases/download/FPLLL-v5.5.0+0/FPLLL.v5.5.0.x86_64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version+1.12.6.tar.gz"
