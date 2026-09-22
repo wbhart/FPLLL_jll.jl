@@ -11,3 +11,21 @@ os = "linux"
     [[FPLLL.download]]
     sha256 = "e85678b9682f272ba91b532f1eefb8efc2984e271e85eca63b23882533571047"
     url = "https://github.com/wbhart/FPLLL_jll.jl/releases/download/FPLLL-v5.5.0+0/FPLLL.v5.5.0.x86_64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version+1.12.6.tar.gz"
+[[FPLLL]]
+arch = "aarch64"
+git-tree-sha1 = "8bb67f1697bf97dfdd383abfef5b8d466f55009f"
+os = "macos"
+
+    [[FPLLL.download]]
+    sha256 = "94b27137ac67557e53b3e58f6fee9409cfed1efc43536a18cb3ad3bf9324aace"
+    url = "https://github.com/wbhart/FPLLL_jll.jl/releases/download/FPLLL-v5.5.0+0/FPLLL.v5.5.0.aarch64-apple-darwin.tar.gz"
+[[FPLLL]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c21e650405333ac1d40196f24410df6c5c3d30ff"
+libc = "glibc"
+os = "linux"
+
+    [[FPLLL.download]]
+    sha256 = "1b27c583c1b733c2b958c5ffa2c03848ebe17d7ff277a38e14526e1e1a96c039"
+    url = "https://github.com/wbhart/FPLLL_jll.jl/releases/download/FPLLL-v5.5.0+0/FPLLL.v5.5.0.x86_64-linux-gnu-cxx11.tar.gz"

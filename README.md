@@ -17,7 +17,8 @@ The tarballs for `FPLLL_jll.jl` have been built from these sources:
 
 `FPLLL_jll.jl` is available for the following platforms:
 
-* `Platform("x86_64", "linux"; libgfortran_version = "5.0.0", julia_version = "1.12.6", libc = "glibc", libstdcxx_version = "3.4.30", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version+1.12.6`)
+* `Platform("aarch64", "macos"; )` (`aarch64-apple-darwin`)
+* `Platform("x86_64", "linux"; libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11`)
 
 ## Dependencies
 
